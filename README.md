@@ -8,7 +8,7 @@ Thanks for the original author JingShing. He uses a BSD3 licence, so I attached 
 原来的项目使用谷歌的Colab，但是Colab不稳定，尤其是免费版。。。动不动就掉线。所以我用了kaggle，人家不仅免费而且稳定（P100比T4也许是好些？）。问题是kaggle的硬盘比较离谱，所以我改了几个路径。而且curl实在是太容易断了。。。我把最容易断的那个换成了aria2。为啥不全用aria2？因为硬盘写入只有20G，aria2不支持通道传递。。。反正最后就是祝大家玩的开心！
 感谢原作者JingShing。原项目BSD3协议附在下文。
 
-##LICENCE
+## LICENCE
 BSD 3-Clause License
 
 Copyright (c) 2022, JingShing
